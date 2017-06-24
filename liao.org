@@ -1,0 +1,20 @@
+* python基础
+** 笔记
+*** 编码
+**** Unicode整合所有字符，但对于大量ASCII字符文本占用空间多
+**** UTF-8英文占用不多，非ASCII字符占用较多
+**** 计算机内存使用Unicode，保存或传输用UTF-8
+*** 有序列表
+**** list
+**** tuple：相对list不可变，所以代码更安全
+*** 无序列表
+**** dict
+**** set
+** 练习代码
+  #+BEGIN_SRC python
+  L = (1,2,)
+  return len(L)
+  #+END_SRC
+
+  #+results:
+  : 2
